@@ -6,5 +6,6 @@ define({
     menuPosition: "Action Menu Position",
     topPos: "Top",
     bottomPos: "Bottom"
-  })
+  }),
+  "pt-br": true 
 });

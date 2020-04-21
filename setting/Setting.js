@@ -65,6 +65,9 @@ define([
           _attachTo = "bottom";
           this._selectItem(_attachTo);
         }
+        if (config.serviceUrl != undefined) {
+          this.serviceNode.value = config.serviceUrl;
+        }
       },
 
       getConfig: function() {
@@ -72,6 +75,8 @@ define([
         this.config.closeOnClear = this.closeonclear.checked;
         this.config.allowExport = this.allowexport.checked;
         this.config.actionMenuPos = this._getSelectedAttachTo();
+        // Serviço Java para geração de relatório
+        this.config.serviceUrl = this.serviceNode.value;
         return this.config;
       },
 

@@ -11,5 +11,6 @@ define({
     widgetversion: 'Popup Panel Widget Version Info',
     widgetverstr: 'Widget Version',
     wabversionmsg: 'Widget is designed to run in Web AppBuilder version'
-  })
+  }),
+  "pt-br": true 
 });
